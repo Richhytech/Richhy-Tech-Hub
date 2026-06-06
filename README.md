@@ -1,4 +1,4 @@
-# Richhy-Tech-Hub# 
+# Richhy-Tech-Hub
 
 Richhy Tech Hub — Projects Repository
 
