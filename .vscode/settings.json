@@ -1,0 +1,15 @@
+{
+    "editor.defaultFormatter": "ms-python.python",
+    "ipynb.pasteImagesAsAttachments.enabled": false,
+    "ipynb.experimental.serialization": false,
+    "isort.interpreter": [
+        ""
+    ],
+    "isort.check": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoTranslateDocstrings": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.enableTroubleshootMissingImports": true,
+    "python.analysis.extraCommitChars": true
+}

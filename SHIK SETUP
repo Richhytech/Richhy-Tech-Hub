@@ -1,0 +1,31 @@
+import os
+
+# Project structure
+folders = [
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/static/css",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/static/images",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/static/js"
+]
+
+files = [
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/app.py",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates/index.html",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates/about.html",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates/programs.html",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates/donate.html",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/templates/contact.html",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/static/css/style.css",
+    "SAFE-HAVEN-INITIATIVE-FOR-KIDS_website/requirements.txt"
+]
+
+# Create folders
+for folder in folders:
+    os.makedirs(folder, exist_ok=True)
+
+# Create files
+for file in files:
+    with open(file, "w") as f:
+        pass
+
+print("SAFE-HAVEN-INITIATIVE-FOR-KIDS Flask project created successfully!")

@@ -1,0 +1,260 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #3E1C00;
+  background-color: #FFF8EE;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A1A;
+  padding: 16px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: #F5A623;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #F5A623;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://images.pexels.com/photos/1070946/pexels-photo-1070946.jpeg?auto=compress&w=1400') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #E8D5B0;
+  margin-bottom: 32px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #F5A623;
+  color: #1A1A1A;
+  padding: 14px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #D4A017;
+}
+
+/* ===== ABOUT ===== */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 80px 60px;
+  background-color: #FFF8EE;
+}
+
+.about-img img {
+  width: 420px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.about-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #3E1C00;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #8B4513;
+  margin-bottom: 14px;
+}
+
+/* ===== MENU ===== */
+.menu {
+  padding: 80px 60px;
+  background-color: #3E1C00;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #F5A623;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background-color: #FFF8EE;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin: 16px 0 8px;
+  color: #3E1C00;
+}
+
+.card p {
+  font-size: 14px;
+  color: #8B4513;
+  padding: 0 16px;
+  margin-bottom: 12px;
+}
+
+.price {
+  display: inline-block;
+  background-color: #F5A623;
+  color: #1A1A1A;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 6px 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+/* ===== WHY US ===== */
+.why {
+  padding: 80px 60px;
+  background-color: #FFF8EE;
+}
+
+.why .section-title {
+  color: #3E1C00;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.why-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.why-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #3E1C00;
+  margin-bottom: 10px;
+}
+
+.why-card p {
+  font-size: 14px;
+  color: #8B4513;
+  line-height: 1.7;
+}
+
+/* ===== CONTACT ===== */
+.contact {
+  padding: 80px 60px;
+  background-color: #1A1A1A;
+  text-align: center;
+}
+
+.contact .section-title {
+  color: #F5A623;
+}
+
+.contact-info p {
+  font-size: 17px;
+  color: #E8D5B0;
+  margin-bottom: 14px;
+  line-height: 1.8;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #0B0B0B;
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 13px;
+}
+
+.footer strong {
+  color: #F5A623;
+}
